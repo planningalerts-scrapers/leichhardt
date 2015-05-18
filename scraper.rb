@@ -2,7 +2,7 @@ require 'scraperwiki'
 require 'rubygems'
 require 'mechanize'
 
-starting_url = 'http://www.eservices.lmc.nsw.gov.au/DATrackingUI/Modules/Applicationmaster/default.aspx?page=found&1=thismonth&6=F'
+starting_url = 'http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?d=thismonth&k=LodgementDate&t=161'
 comment_url = 'mailto:leichhardt@lmc.nsw.gov.au?subject='
 
 def clean_whitespace(a)
